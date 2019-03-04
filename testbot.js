@@ -4,8 +4,7 @@ const request = require("request-promise");
 const LINE_MESSAGING_API = "https://api.line.me/v2/bot/message/reply";
 const LINE_HEADER = {
   "Content-Type": "application/json",
-  Authorization: `Bearer <pDY5cSpSVUQRUameQ2tqncOfWwQkKfcW9jOeHlPUnF3ZaeOIDxJPOFVtt3TRKYAcvme7AOvdnyxDP8lyfen0gJ4TgWua6QnDL+fHePAhObqHnKQ/KS21HTWEU2Rs8CLOmRr1u52ChdPuGmjZC5m/ygdB04t89/1O/w1cDnyilFU=
->`
+  Authorization: `Bearer <pDY5cSpSVUQRUameQ2tqncOfWwQkKfcW9jOeHlPUnF3ZaeOIDxJPOFVtt3TRKYAcvme7AOvdnyxDP8lyfen0gJ4TgWua6QnDL+fHePAhObqHnKQ/KS21HTWEU2Rs8CLOmRr1u52ChdPuGmjZC5m/ygdB04t89/1O/w1cDnyilFU=>`
 };
 
 exports.LineBotReply = functions.https.onRequest((req, res) => {
